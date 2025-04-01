@@ -9,6 +9,16 @@
 
 ## Code of Conduct
 
-## Authors and acknowledgment
+## Development Team
+
+* Erik Lidbom (@eriklidb)
+
+* Emma Olmås (@emmaolm)
+
+* Fredrik Nilsson (@fnilsson)
+
+* Ravi Sharma (@ravisha)
+
+## Acknowledgements & Special Thanks
 
 ## License
