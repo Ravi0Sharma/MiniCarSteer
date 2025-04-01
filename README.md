@@ -21,4 +21,8 @@
 
 ## Acknowledgements & Special Thanks
 
-## License
+Acknowledgements and special thanks will be included at a later stage, as this course continues to develop and eventually finishes. These will reflect the contributions, support, and efforts of all those who played a meaningful role throughout its journey.
+
+
+-------------------------------------------------------
+_Group 3 (Name: TBD) - DIT639 V25 - University of Gothenburg, Sweden_
