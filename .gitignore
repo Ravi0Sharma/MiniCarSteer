@@ -1,0 +1,56 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary executables
+*.exe
+*.out
+*.app
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.dll
+*.dylib
+
+# Debug and profiling files
+*.gch
+*.pch
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+
+# CMake and build folders
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+bin/
+lib/
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/secrets (just in case)
+.env
+*.key
+*.pem
