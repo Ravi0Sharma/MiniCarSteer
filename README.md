@@ -61,7 +61,8 @@ The developers will fix unexptected behaviour by identifying and prioritizing th
 will be created and a pull request will be created. Once the bug is fixed, the code is reviewed and confirmed, the bugbranch
 can be merged into main.
 
-**Structure and content of commit messages**
+**Structure and content of commit messages**:
+
 The team will follow the best practices of the git commit template guide, found in the wiki:
 
 [Link to commit template](https://git.chalmers.se/courses/dit638/students/2025-group-03/-/wikis/Guidelines-and-Templates/Commits)
