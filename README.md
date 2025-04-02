@@ -5,7 +5,20 @@
 
 This project is part of the DIT639 Cyber-Physical Systems and Systems of Systems course at Chalmers/GU. Our goal is to design, implement, and evaluate software features for a self-driving miniature vehicle in a simulated, data-driven environment. The project involves analyzing customer requirements, selecting appropriate algorithms, and developing components such as perception, control, and decision-making. The team works collaboratively using GitLab for version control and Ubuntu-based systems for development, with a strong focus on testing, documentation, and iterative improvement.
 
-## Getting started - Clone and Build Project
+## Getting started
+
+
+<details><summary>Tech Stack</summary>
+
+</details>
+
+<details><summary>Setup Instructions</summary>
+
+</details>
+
+<details><summary>How to run the project (build/test/run)</summary>
+
+</details>
 
 ## Workflow
 
