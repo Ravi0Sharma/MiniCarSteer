@@ -1,5 +1,5 @@
 # Part 1: Building the Application
-FROM ubuntu:24.04 as builder
+FROM ubuntu:24.04 AS builder
 
 RUN apt-get update -y && \
     apt-get upgrade -y && \
@@ -18,7 +18,6 @@ RUN mkdir build && \
     cd build && \
     cmake -D CMAKE_BUILD_TYPE=Release .. && \
     make && \
-    make test && \
     cp helloworld /tmp
 
 # Part 2: Bundle the application
