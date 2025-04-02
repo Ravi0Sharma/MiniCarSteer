@@ -10,9 +10,18 @@ This project is part of the DIT639 Cyber-Physical Systems and Systems of Systems
 
 <details><summary>Tech Stack</summary>
 
+Before building or running the project locally, ensure you have the following prerequisites installed:
+- **C++ compiler** (g++)
+- **CMake** (version 3.2 or later)
+- **Make**
+- **Docker** (for building and running inside a container)
+- **SSH key**
+
 </details>
 
 <details><summary>Setup Instructions</summary>
+* **Clone the repository with the SSH key via terminal**
+- 
 
 </details>
 
