@@ -20,8 +20,15 @@ Before building or running the project locally, ensure you have the following pr
 </details>
 
 <details><summary>Setup Instructions</summary>
+
 * **Clone the repository with the SSH key via terminal**
-- 
+    - Open a terminal of your choice
+    - Create a new folder to clone the repository to:
+        - In desired location, run following command and replace the name with your folder name:
+        `mkdir FOLDER_NAME`
+    - Navigate to the folder with this command: `cd FOLDER_NAME`
+    - Clone the repository:
+    `git@git.chalmers.se:courses/dit638/students/2025-group-03.git`
 
 </details>
 
