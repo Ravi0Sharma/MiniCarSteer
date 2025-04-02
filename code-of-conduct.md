@@ -60,4 +60,5 @@ Responsible Use of LLMs
 * Discord as a Project Management Tool: Utilizing Discord for structured task tracking, real-time updates, and scheduled check-ins.
 
 * Regular Check-Ins: Scheduled updates and feedback sessions to improve communication and efficiency.
-* Enhanced Documentation: Leveraging GitLab’s documentation feature to maintain a structured record of key decisions, changes, and implementations
+
+* Enhanced Documentation: Leveraging GitLab’s documentation feature to maintain a structured record of key decisions, changes, and implementations.
