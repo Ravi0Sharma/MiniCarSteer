@@ -34,6 +34,22 @@ Before building or running the project locally, ensure you have the following pr
 
 <details><summary>How to run the project (build/test/run)</summary>
 
+* **How to build the project locally**
+    - Navigate to the repository where the cloned project is: `cd REPO_NAME`
+    - Create an out-of-source build directory: `mkdir build && cd build`
+    - Run Cmake: `cmake ..`
+    - Compile the source code: `make`
+* **Run the application**
+    - Once compilation is successful:
+    - Run the program: `./helloworld <NUMBER>`
+        - For example: `./helloworld 42` should print: `LASTNAME, FIRSTNAME, 42 is a prime? 0` (Replace first- and lastname with your own name)
+    
+* **Building and running through Docker**
+    - Building the project:
+        - `docker build -t CID/example:latest -f Dockerfile .`
+    - Running the docker container:
+        - `docker run --rm CID/example:latest 42`, this should print the same output as running the project locally
+
 </details>
 
 ## Workflow
