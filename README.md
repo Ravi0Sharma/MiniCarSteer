@@ -67,6 +67,8 @@ The team will follow the best practices of the git commit template guide, found 
 
 [Link to commit template](https://git.chalmers.se/courses/dit638/students/2025-group-03/-/wikis/Guidelines-and-Templates/Commits)
 ## Code of Conduct
+The code of conduct is a file located in the root directory, and can be found
+[here](https://git.chalmers.se/courses/dit638/students/2025-group-03/-/blob/main/code-of-conduct.md?ref_type=heads)
 
 ## Development Team
 
