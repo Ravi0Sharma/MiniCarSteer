@@ -53,7 +53,13 @@ Before building or running the project locally, ensure you have the following pr
 </details>
 
 ## Workflow
+For a clean workflow, the team has decided on creating issues with user stories with acceptance criteria. The issues will be handled by feature branching.
+Before commiting into the main branch, a pull request will be created and reviewed for code quality, readability, vulnerabilities, etc. Once the review
+is confirmed, the branch can be merged into main.
 
+The developers will fix unexptected behaviour by identifying and prioritizing the issues. Bugfixing branches
+will be created and a pull request will be created. Once the bug is fixed, the code is reviewed and confirmed, the bugbranch
+can be merged into main.
 ## Code of Conduct
 
 ## Development Team
