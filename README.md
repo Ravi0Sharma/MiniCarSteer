@@ -28,7 +28,7 @@ Before building or running the project locally, ensure you have the following pr
         `mkdir FOLDER_NAME`
     - Navigate to the folder with this command: `cd FOLDER_NAME`
     - Clone the repository:
-    `git@git.chalmers.se:courses/dit638/students/2025-group-03.git`
+    `git@git.chalmers.se:courses/dit639/students/2025-group-03.git`
 
 </details>
 
