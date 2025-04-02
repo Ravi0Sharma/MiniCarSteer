@@ -2,13 +2,15 @@
 #include <string>
 #include "PrimeChecker.hpp"
 
-int main (int argc, char** argv) {
-    
-    if (argc == 2) {
+int main(int argc, char **argv)
+{
+
+    if (argc == 2)
+    {
         int number = std::stoi(argv[1]);
         PrimeChecker pc;
 
-        std::cout << "LAST NAME, FIRST NAME; "
+        std::cout << "Olmås, Emma; "
                   << number << " is a prime number? "
                   << pc.isPrime(number)
                   << std::endl;
