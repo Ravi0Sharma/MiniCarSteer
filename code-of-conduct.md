@@ -55,7 +55,9 @@ Responsible Use of LLMs
 
 **Improvements Implemented**
 
-GitLab Integration: Task-tracking systems set up to ensure goal alignment and monitor task progress effectively.
-Discord as a Project Management Tool: Utilizing Discord for structured task tracking, real-time updates, and scheduled check-ins.
-Regular Check-Ins: Scheduled updates and feedback sessions to improve communication and efficiency.
-Enhanced Documentation: Leveraging GitLab’s documentation feature to maintain a structured record of key decisions, changes, and implementations
+* GitLab Integration: Task-tracking systems set up to ensure goal alignment and monitor task progress effectively.
+
+* Discord as a Project Management Tool: Utilizing Discord for structured task tracking, real-time updates, and scheduled check-ins.
+
+* Regular Check-Ins: Scheduled updates and feedback sessions to improve communication and efficiency.
+* Enhanced Documentation: Leveraging GitLab’s documentation feature to maintain a structured record of key decisions, changes, and implementations
