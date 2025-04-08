@@ -35,8 +35,9 @@ before_script:
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
 
 # This section describes what shall be done to test the source code
-
 run-tests:
+  tags:
+    - docker
   stage: test
   script:
     - echo "Testing..."
