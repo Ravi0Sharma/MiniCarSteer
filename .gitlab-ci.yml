@@ -40,6 +40,7 @@ build:
   tags:
     - docker-build
   script:
+    - echo "Running build stage..."
     - docker build -f Dockerfile .
   rules:
     - if: "$CI_COMMIT_TAG"
@@ -47,14 +48,14 @@ build:
     - if: "$CI_COMMIT_BRANCH"
       when: always
 
-# Test job: Currently simulates a succeed
+# Test job: Currently simulates a failed test case
 test:
   stage: test
   tags:
     - docker-build
   script:
     - echo "Running tests..."
-    - exit 0
+    - exit 1
   rules:
     - if: "$CI_COMMIT_TAG"
       when: never
