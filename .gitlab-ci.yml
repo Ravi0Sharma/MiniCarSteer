@@ -25,6 +25,7 @@ services:
   - name: docker:19.03.3-dind
 
 stages:
+  - test
   - build
   - deploy
 
@@ -32,6 +33,16 @@ stages:
 before_script:
   - docker info
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+
+# This section describes what shall be done to test the source code
+
+run-tests:
+  stage: test
+  script:
+    - echo "Testing..."
+    - exit 0
+  rules:
+    - when: always
 
 # This section describes what shall be done to build and test the project.
 build-and-test:
