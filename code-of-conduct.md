@@ -106,7 +106,7 @@ Structured check-ins will be planned during monday meetings to streamline commun
 
 2. **Documentation and Transparency:**
 
-   - Document and track each LLM usage in Gitlab Wiki, connected with issue number and merge requests, specifying the purpose and the content generated.
+   - Document and track each LLM usage in Gitlab Wiki, connected with issue number and merge requests, specifying the purpose and the content generated. ([Link to Usage of LLMs in Wiki](https://git.chalmers.se/courses/dit638/students/2025-group-03/-/wikis/Usage-of-LLMs))
 
    - Ensure LLM outputs are reviewed and validated by at least one other member before integrating into the project.
 
