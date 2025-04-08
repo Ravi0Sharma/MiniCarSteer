@@ -40,7 +40,7 @@ run-tests:
   stage: test
   script:
     - echo "Simulating test failure"
-    - exit 1 #Changed from 0 to 1 to simulate test failure
+    - exit 0
   rules:
     - when: always
 
