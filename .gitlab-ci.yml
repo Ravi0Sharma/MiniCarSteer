@@ -40,7 +40,7 @@ test-job:
     - docker-build
   stage: test
   script:
-    - echo "Running tests..."
+    - echo "Test simulation..."
     - exit 0
   rules:
     - if: "$CI_COMMIT_BRANCH"
