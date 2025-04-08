@@ -67,7 +67,7 @@ release:
   tags:
     - docker-build
   script:
-    - echo "Run deployment..."
+    - echo "Run deployment"
     - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG" -f Dockerfile .
     - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG"
   rules:
