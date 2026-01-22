@@ -131,8 +131,3 @@ Erik Lidbom (@eriklidb)
 Emma Olmås (@emmaolm)  
 Fredrik Nilsson (@fnilsson)  
 Ravi Sharma (@ravisha)  
-
-## Acknowledgements
-
-Acknowledgements and special thanks will be added as the course progresses and the project reaches completion. These will reflect the contributions, support, and collaboration of all parties involved.
-
