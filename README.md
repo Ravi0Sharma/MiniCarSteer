@@ -1,89 +1,61 @@
-# 2025-group-03
 
+<img width="979" height="601" alt="minicarsteer" src="https://github.com/user-attachments/assets/81a6d0ee-3f46-4c38-bbf6-05aad68864e1" />
 
 ## Description
 
-This project is part of the DIT639 Cyber-Physical Systems and Systems of Systems course at Chalmers/GU. Our goal is to design, implement, and evaluate software features for a self-driving miniature vehicle in a simulated, data-driven environment. The project involves analyzing customer requirements, selecting appropriate algorithms, and developing components such as perception, control, and decision-making. The team works collaboratively using GitLab for version control and Ubuntu-based systems for development, with a strong focus on testing, documentation, and iterative improvement.
+This project is developed as part of the **DIT639 Cyber-Physical Systems and Systems of Systems** course at **Chalmers University of Technology / University of Gothenburg**.
 
-## Getting started
+The goal of the project is to design, implement, and evaluate software components for a self-driving miniature vehicle in a simulated, data-driven environment. The system focuses on perception, control, and decision-making, with an emphasis on real-time computer vision, steering control, and system integration.
 
+The project includes cone detection using computer vision, steering angle computation, and communication through the OpenDLV platform. Development is carried out collaboratively using GitLab, Ubuntu-based systems, and modern software engineering practices such as feature branching, CI pipelines, testing, and documentation.
 
-<details><summary>Tech Stack</summary>
+---
 
-Before building or running the project locally, ensure you have the following prerequisites installed:
-- **C++ compiler** (g++)
-- **CMake** (version 3.2 or later)
-- **Make**
-- **Docker** (for building and running inside a container)
-- **SSH key**
+## Features
 
-</details>
+### Cone Detection
+- Real-time detection of blue and yellow cones using OpenCV
+- HSV color segmentation and contour analysis
+- Filtering, limiting, and sorting of detected cones for robust downstream processing
 
-<details><summary>Setup Instructions</summary>
+### Steering Angle Calculation
+- Steering angle computation based on angular velocity
+- Scaling and limiting algorithm to ensure safe and realistic steering output
 
-* **Clone the repository with the SSH key via terminal**
-    - Open a terminal of your choice
-    - Create a new folder to clone the repository to:
-        - In desired location, run following command and replace the name with your folder name:
-        `mkdir FOLDER_NAME`
-    - Navigate to the folder with this command: `cd FOLDER_NAME`
-    - Clone the repository:
-    `git clone git@git.chalmers.se:courses/dit638/students/2025-group-03.git`
+### OpenDLV Integration
+- Attachment to shared memory for image input
+- Communication via OD4 sessions for message exchange
+- Designed for integration with recorded or live data streams
 
-</details>
+### Data Analysis & Evaluation
+- Python scripts for log formatting and data processing
+- Evaluation of predicted steering angles against ground truth
+- CSV-based analysis and visualization
 
-<details><summary>How to run the project (build/test/run)</summary>
+### Visualization
+- Gnuplot scripts for plotting steering angle comparisons
+- Visual comparison between computed and ground truth steering data
 
-* **How to build the project locally**
-    - Navigate to the repository where the cloned project is: `cd REPO_NAME`
-    - Create an out-of-source build directory: `mkdir build && cd build`
-    - Run Cmake: `cmake ..`
-    - Compile the source code: `make`
-* **Run the application**
-    - Once compilation is successful:
-    - Run the program: `./helloworld <NUMBER>`
-        - For example: `./helloworld 42` should print: `LASTNAME, FIRSTNAME, 42 is a prime? 0` (Replace first- and lastname with your own name)
-    
-* **Building and running through Docker**
-    - Building the project:
-        - `docker build -t CID/example:latest -f Dockerfile .`
-    - Running the docker container:
-        - `docker run --rm CID/example:latest 42`, this should print the same output as running the project locally
+---
 
-</details>
+## Getting Started
 
-## Workflow
-For a clean workflow, the team has decided on creating issues with user stories with acceptance criteria. The issues will be handled by feature branching.
-Before commiting into the main branch, a pull request will be created and reviewed for code quality, readability, vulnerabilities, etc. Once the review
-is confirmed, the branch can be merged into main.
+### Prerequisites
 
-The developers will fix unexptected behaviour by identifying and prioritizing the issues. Bugfixing branches
-will be created and a pull request will be created. Once the bug is fixed, the code is reviewed and confirmed, the bugbranch
-can be merged into main.
+Before building or running the project locally, ensure you have the following installed:
 
-**Structure and content of commit messages**:
+- C++ compiler (C++17 or newer, e.g. g++)
+- CMake (version 3.2 or later)
+- Make
+- OpenCV (core, imgproc, highgui)
+- Docker (optional, for containerized builds)
+- Python 3 (for data analysis scripts)
+- SSH key (for repository access)
 
-The team will follow the best practices of the git commit template guide, found in the wiki:
+---
 
-[Link to commit template](https://git.chalmers.se/courses/dit638/students/2025-group-03/-/wikis/Guidelines-and-Templates/Commits)
-## Code of Conduct
-The code of conduct is a file located in the root directory, and can be found
-[here](https://git.chalmers.se/courses/dit638/students/2025-group-03/-/blob/main/code-of-conduct.md?ref_type=heads)
+### Clone the Repository
 
-## Development Team
-
-* Erik Lidbom (@eriklidb)
-
-* Emma Olmås (@emmaolm)
-
-* Fredrik Nilsson (@fnilsson)
-
-* Ravi Sharma (@ravisha)
-
-## Acknowledgements & Special Thanks
-
-Acknowledgements and special thanks will be included at a later stage, as this course continues to develop and eventually finishes. These will reflect the contributions, support, and efforts of all those who played a meaningful role throughout its journey.
-
-
--------------------------------------------------------
-_Group 3 (Name: TBD) - DIT639 V25 - University of Gothenburg, Sweden_
+```bash
+git clone git@git.chalmers.se:courses/dit638/students/2025-group-03.git
+cd 2025-group-03
