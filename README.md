@@ -1,8 +1,6 @@
 
 <img width="979" height="601" alt="minicarsteer" src="https://github.com/user-attachments/assets/81a6d0ee-3f46-4c38-bbf6-05aad68864e1" />
 
-# 2025-group-03
-
 ## Description
 
 This project is developed as part of the **DIT639 Cyber-Physical Systems and Systems of Systems** course at **Chalmers University of Technology / University of Gothenburg**.
